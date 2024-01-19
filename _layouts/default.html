@@ -19,10 +19,10 @@
       <!-- <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
       <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2> -->
       <h1>Parcel Tracking</h1>
-      <form>
+      <form onsubmit="return false">
         <label for="tracking-number">Enter Tracking Number:</label>
         <input type="text" id="tracking-number" required>
-        <button type="button" onclick="trackParcel()">Track</button>
+        <button type="submit" onclick="trackParcel()">Track</button>
       </form> 
       <!-- {% if site.github.is_project_page %}
         <a href="{{ site.github.repository_url }}" class="btn">View on GitHub</a> -->
