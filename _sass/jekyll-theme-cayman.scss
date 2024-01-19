@@ -34,6 +34,23 @@ body {
   color: $body-text-color;
 }
 
+input {
+  width: 50%;
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid #333;
+}
+
+button {
+  width: 20%;
+  padding: 10px;
+  margin: 10px;
+  background-color: #1abc9c;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
 #skip-to-content {
   height: 1px;
   width: 1px;
